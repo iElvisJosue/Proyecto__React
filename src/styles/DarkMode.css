@@ -1,0 +1,8 @@
+:root.Dark
+{
+    /* DARK MODE */
+    --BackgroundColor: hsl(207, 26%, 17%);
+    --BackgroundElements: hsl(209, 23%, 22%);
+    --Text: white;
+    --Input: white;
+}

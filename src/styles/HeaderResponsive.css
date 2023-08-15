@@ -1,0 +1,26 @@
+
+@media (width <= 1200px){
+    .Container__Header
+    {
+        padding: 0 50px;
+    }
+}
+@media (width <= 800px){
+    .Container__Header
+    {
+        padding: 0 40px;
+    }
+}
+@media (width <= 500px){
+    .Container__Header
+    {
+        padding: 0 20px;
+    }
+
+}
+@media (width <= 400px){
+    .Container__Header--Title
+    {
+        font-size: var(--Text);
+    }
+}

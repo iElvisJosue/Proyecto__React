@@ -1,0 +1,23 @@
+@media (width <= 1200px){
+    .Container__Content
+    {
+        padding: 0 50px 25px 50px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (width <= 800px){
+    .Container__Content
+    {
+        padding: 0 40px 15px 40px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (width <= 500px){
+    .Container__Content{
+        padding: 0 20px 15px 20px;
+        grid-template-columns: 1fr;;
+    }
+    .Container__Content--Countrie figure{
+        height: 250px;
+    }
+}

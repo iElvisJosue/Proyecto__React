@@ -1,0 +1,34 @@
+@media (width <= 1200px){
+    .Container__Inputs
+    {
+        padding: 25px 50px;
+    }
+}
+@media (width <= 800px){
+    .Container__Inputs
+    {
+        padding: 15px 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .Container__Inputs--Search
+    {
+        width: 100%;
+    }
+    .Container__Inputs--Filter
+    {
+        width: 65%;
+    }
+    .Container__Inputs--Filter--Button
+    {
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+}
+@media (width <= 500px){
+    .Container__Inputs
+    {
+        padding: 15px 20px;
+    }
+}

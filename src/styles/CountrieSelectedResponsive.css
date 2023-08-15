@@ -1,0 +1,54 @@
+@media (width <= 1440px){
+    .Container__Countrie
+    {
+        width: 100%;
+    }
+}
+@media (width <= 1200px){
+    .Container__Countrie
+    {
+        padding: 75px 50px;
+    }
+}
+@media (width <= 900px){
+    .Container__Countrie--Details--Text
+    {
+        padding: 0 0 0 10px;
+    }
+}
+@media (width <= 800px){
+    .Container__Countrie
+    {
+        padding: 30px 40px;
+    }
+    .Container__Countrie--Details
+    {
+        margin-top: 30px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    .Container__Countrie--Details--Text
+    {
+        padding: 0;
+        gap: 30px;
+    }
+    .Container__Countrie--Details--Data
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .Container__Countrie--Details--Border
+    {
+        flex-direction: column;
+    }
+    .Container__Countrie--Details--Image
+    {
+        height: auto;
+    }
+}
+@media (width <= 500px){
+    .Container__Countrie
+    {
+        padding: 30px 20px;
+    }
+}
